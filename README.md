@@ -23,6 +23,11 @@ git cloneする
 git clone https://github.com/mahiro72/go_piscine-create_dir.git
 ```
 
+準備完了！
+
+作成、削除の際は ```/goXX``` でお願いします
+
+
 ## ディレクトリ作成について
 
 ex[数字]までディレクトリを作成する
