@@ -29,9 +29,20 @@ if [ 0 -gt "$1" ] || [ "$1" -gt 20 ]; then
 
 fi
 
-echo ""
-echo "ex00 ~ ex0$1 を作成します..."
-echo ""
+
+
+if [ 0 -le "$1" ] && [ "$1" -le 9 ]; then
+    echo ""
+    echo "ex00 ~ ex0$1 を作成します..."
+    echo ""
+
+elif [ 10 -le "$1" ] && [ "$1" -le 20 ]; then
+    echo ""
+    echo "ex00 ~ ex$1 を作成します..."
+    echo ""
+
+fi
+
 
 i=0
 while [ $i -le "$1" ]; do
