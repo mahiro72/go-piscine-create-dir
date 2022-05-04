@@ -25,8 +25,13 @@ git clone https://github.com/mahiro72/go_piscine-create_dir.git
 
 準備完了！
 
-作成、削除の際は ```/goXX``` でお願いします
+<br>
 
+### 注意
+
+作成、削除の際は ```/goXX``` のディレクトリでお願いします
+
+<br>
 
 ## ディレクトリ作成について
 
@@ -42,8 +47,7 @@ example
 ```
 ./go_piscine-create_dir/create-dir.sh 3
 ```
-
-ex00 ~ ex03 まで作成される
+上記のコマンドを実行すると、ex00 ~ ex03 まで作成される
 
 ## ディレクトリ削除について
 
