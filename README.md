@@ -23,6 +23,20 @@ git cloneする
 git clone https://github.com/mahiro72/go_piscine-create_dir.git
 ```
 
+<br>
+
+権限変更
+
+```
+chmod 755 ./go_piscine-create_dir/create-dir.sh
+```
+
+```
+chmod 755 ./go_piscine-create_dir/delete-dir.sh
+```
+
+<br>
+
 準備完了！
 
 <br>
