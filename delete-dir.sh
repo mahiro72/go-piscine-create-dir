@@ -15,7 +15,7 @@ case $ANS in
     echo ""
     echo "削除を開始します..."
     echo ""
-    rm -rf ../ex*
+    rm -rf ex*
     echo "削除が完了しました！"
 	echo ""
     ;;

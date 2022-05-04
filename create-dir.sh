@@ -33,8 +33,6 @@ echo ""
 echo "ex00 ~ ex0$1 を作成します..."
 echo ""
 
-cd ../
-
 i=0
 while [ $i -le "$1" ]; do
     mkdir "ex0$i" && mkdir "ex0$i/vendor" && mkdir "ex0$i/vendor/piscine" && \
