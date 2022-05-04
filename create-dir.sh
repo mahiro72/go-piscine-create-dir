@@ -35,8 +35,17 @@ echo ""
 
 i=0
 while [ $i -le "$1" ]; do
-    mkdir "ex0$i" && mkdir "ex0$i/vendor" && mkdir "ex0$i/vendor/piscine" && \
-    mkdir "ex0$i/vendor/ft" && touch "ex0$i/main.go" && cp "./go_piscine-create_dir/src/printrune.go" "ex0$i/vendor/ft/printrune.go"
+
+    if [ 0 -le "$1" ] && [ "$1" -le 9 ]; then
+        mkdir "ex0$i" && mkdir "ex0$i/vendor" && mkdir "ex0$i/vendor/piscine" && \
+        mkdir "ex0$i/vendor/ft" && touch "ex0$i/main.go" && cp "./go_piscine-create_dir/src/printrune.go" "ex0$i/vendor/ft/printrune.go"
+
+    elif [ 10 -le "$1" ] && [ "$1" -le 20 ]; then
+        mkdir "ex$i" && mkdir "ex$i/vendor" && mkdir "ex$i/vendor/piscine" && \
+        mkdir "ex$i/vendor/ft" && touch "ex$i/main.go" && cp "./go_piscine-create_dir/src/printrune.go" "ex$i/vendor/ft/printrune.go"
+
+    fi
+
     i=$(( i + 1 ))
 done
 
