@@ -1,6 +1,12 @@
 # go_piscine-create_dir
 
-go_piscineのディレクトリを作成する
+go_piscineのディレクトリ作成用です
+
+ex00,ex01...を作るのが大変なので自動化しました
+
+<br>
+
+windows, docker 環境では動作確認済みです
 
 <br>
 
