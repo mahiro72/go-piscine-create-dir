@@ -32,6 +32,7 @@ git clone https://github.com/mahiro72/go_piscine-create_dir.git
 <br>
 
 権限変更
+(windows環境だと必要ないです)
 
 ```
 chmod 755 ./go_piscine-create_dir/create-dir.sh
